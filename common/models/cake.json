@@ -1,0 +1,44 @@
+{
+  "name": "cake",
+  "plural": "cakes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": false
+    },
+    "image": {
+      "type": "string",
+      "format": "byte",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "portions": {
+      "type": "number",
+      "required": false
+    },
+    "price": {
+      "type": "number",
+      "required": false
+    },
+    "price_portions": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
